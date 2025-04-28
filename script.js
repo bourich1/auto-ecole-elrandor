@@ -170,3 +170,4 @@ document.addEventListener('DOMContentLoaded', function() {
         instructorsGrid.scrollLeft = scrollLeft - walk;
     }, {passive: true});
 });
+

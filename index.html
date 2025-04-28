@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autoécole El Ghandour - Driving School</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.min.js"></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -29,16 +32,21 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="container">
+        <div class="hero-container">
             <div class="hero-content">
-                <h1>رحلتك نحو القيادة الآمنة تبدأ هنا</h1>
-                <p>تعليم احترافي مع مدربين معتمدين. تعلم القيادة بأمان وثقة مع مدرسة تعليم السياقة الموثوقة في المغرب.</p>
-                <a href="#contact" class="btn">سجل الآن</a>
+                <h1>مدرسة القيادة الرائدة في المغرب</h1>
+                <p class="tagline">نحو جيل جديد من السائقين المتميزين - تعلم القيادة باحترافية مع أفضل المدربين المعتمدين</p>
+                <a href="#contact" class="btn">سجل في دورة القيادة اليوم</a>
+            </div>
+            <div class="car-model-container">
+                <video id="carVideo" class="car-video" autoplay muted loop playsinline>
+                    <source src="image/Car Running On Road.mp4" type="video/mp4">
+                    متصفحك لا يدعم تشغيل الفيديو.
+                </video>
             </div>
         </div>
-    </section>
+    </section
 
     <!-- Info Section -->
     <section class="info-section">
