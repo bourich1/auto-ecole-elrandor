@@ -476,6 +476,15 @@ header {
     .instructors {
         padding: 60px 0;
     }
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-content{
+        margin-bottom: 20px;
+    }
+    .hero{
+        margin-top: 40px;
+    }
     
     .instructor-card {
         flex: 0 0 100%;
